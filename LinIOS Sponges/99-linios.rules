@@ -1,0 +1,4 @@
+ATTR{idVendor}=="05ac", MODE="0666", GROUP="plugdev", OWNER="root"
+ATTR{idVendor}=="05ac", MODE="0666", GROUP="dialout", OWNER="root"
+# Fallback for systems without plugdev
+SUBSYSTEM=="usb", ATTR{idVendor}=="05ac", MODE="0666"

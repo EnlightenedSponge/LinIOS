@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=LinIOS
+Comment=Sync music to and from iPhone
+Exec=sh /home/ai/Desktop/LinIOS Sponges/run.sh
+Terminal=false
+Categories=AudioVideo;Audio;Utility;
